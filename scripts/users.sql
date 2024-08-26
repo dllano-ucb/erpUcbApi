@@ -11,3 +11,4 @@ create table "Users" (
 create user ucb with encrypted password 'abc123.,';
 grant all privileges on database "erpUcb" to ucb;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO ucb;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO ucb;
